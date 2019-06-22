@@ -1,13 +1,14 @@
 ## Working with native ReasonML
 
-So the 2 tools to use in this situation are:
+For working with native ReasonML, the 2 tools I've found to be useful are:
 
-1) `dune`, for building packages, integrates opam packages as long as they're properly referenced.
-2) `esy`, for installing both npm and opam packages, and
+1) `dune`, for building packages, integrates opam packages as long as they're properly referenced, and
+2) `esy`, for installing both npm and opam packages needed by the native ReasonML project (also permits you to make configs for building your project in the `package.json` file).
 
 ### Dune
 
-See Makefile for sample commands. This project uses an opam installed `ocaml-csv` package, which is then referenced in the `dune` file in root (I realize we're not going to use `ocaml-csv`, but just used it to demonstrate how to integrate an opam-installed package). You can also create as many of your own libraries in subdirectories as you want, and reference them in the same way as opam-installed packages are referenced in the `dune` config file.
+See `Makefile` in root for sample commands. This project uses an opam installed `ocaml-csv` package, which is then referenced in the `dune` file in root (`ocaml-csv` is just used to demonstrate how to integrate an opam-installed package). 
+You can also create as many of your own libraries in subdirectories as you want, and reference them in the same way as opam-installed packages are referenced in the `dune` config file.
 
 Some docs on dune:
 
