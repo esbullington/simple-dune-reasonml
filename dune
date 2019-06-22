@@ -1,0 +1,6 @@
+;; dune
+(executable
+  (name main)
+  (libraries csv)
+)
+
