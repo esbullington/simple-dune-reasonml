@@ -7,7 +7,7 @@ For working with native ReasonML, the 2 tools I've found to be useful are:
 
 ### Dune
 
-See `Makefile` in root for sample commands. This project uses an opam installed `ocaml-csv` package, which is then referenced in the `dune` file in root (`ocaml-csv` is just used to demonstrate how to integrate an opam-installed package). 
+See `Makefile` in project root for sample commands. This project uses an opam installed `ocaml-csv` package, which is then referenced in the `dune` file in root (`ocaml-csv` is just used to demonstrate how to integrate an opam-installed package). 
 You can also create as many of your own libraries in subdirectories as you want, and reference them in the same way as opam-installed packages are referenced in the `dune` config file.
 
 Some docs on dune:
