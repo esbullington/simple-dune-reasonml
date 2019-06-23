@@ -19,4 +19,4 @@ Some docs on dune:
 
 https://esy.sh/en/
 
-I didn't actually set up `esy` in this repo, but if you need to use packages from both opam and npm, esy looks like a good option.
+I didn't actually set up `esy` in this repo, but if you need to use packages from both opam and npm, esy is a good option.
